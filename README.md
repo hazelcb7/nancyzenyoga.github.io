@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nancy's Zen Yoga | In-Home & Studio Yoga Instruction</title>
+    <title>Zen Yoga | In-Home Yoga Instruction</title>
     <style>
         /* ===== RESET & BASE ===== */
         * {
@@ -15,8 +15,8 @@
 
         body {
             font-family: 'Georgia', serif;
-            color: #3d3d3d;
-            background-color: #fdfaf6;
+            color: #2d3f50;
+            background-color: #f0f7ff;
         }
 
         /* ===== NAVIGATION ===== */
@@ -24,7 +24,7 @@
             position: fixed;
             top: 0;
             width: 100%;
-            background-color: rgba(253, 250, 246, 0.95);
+            background-color: rgba(240, 247, 255, 0.95);
             padding: 15px 40px;
             display: flex;
             justify-content: space-between;
@@ -35,7 +35,7 @@
 
         .logo {
             font-size: 1.6rem;
-            color: #7a9e7e;
+            color: #4a90b8;
             letter-spacing: 2px;
             font-style: italic;
         }
@@ -48,7 +48,7 @@
 
         .nav-links a {
             text-decoration: none;
-            color: #3d3d3d;
+            color: #2d3f50;
             font-size: 0.95rem;
             letter-spacing: 1px;
             text-transform: uppercase;
@@ -56,13 +56,13 @@
         }
 
         .nav-links a:hover {
-            color: #7a9e7e;
+            color: #4a90b8;
         }
 
         /* ===== HERO SECTION ===== */
         .hero {
             height: 100vh;
-            background: linear-gradient(135deg, #e8f0e9 0%, #f5ede3 50%, #e8e0f0 100%);
+            background: linear-gradient(135deg, #d6eaf8 0%, #e8f4fd 50%, #d0e8f5 100%);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -72,14 +72,14 @@
 
         .hero-content h1 {
             font-size: 3.5rem;
-            color: #4a7c59;
+            color: #2471a3;
             margin-bottom: 15px;
             letter-spacing: 3px;
         }
 
         .hero-content p {
             font-size: 1.3rem;
-            color: #6b6b6b;
+            color: #5d7f99;
             margin-bottom: 30px;
             font-style: italic;
             max-width: 550px;
@@ -88,7 +88,7 @@
         .btn {
             display: inline-block;
             padding: 14px 36px;
-            background-color: #7a9e7e;
+            background-color: #4a90b8;
             color: white;
             text-decoration: none;
             border-radius: 30px;
@@ -98,7 +98,7 @@
         }
 
         .btn:hover {
-            background-color: #4a7c59;
+            background-color: #2471a3;
             transform: translateY(-2px);
         }
 
@@ -122,7 +122,7 @@
         .about-image {
             width: 320px;
             height: 400px;
-            background: linear-gradient(135deg, #c8dfc8, #d4c5e8);
+            background: linear-gradient(135deg, #aed6f1, #d6eaf8);
             border-radius: 60% 40% 55% 45% / 50% 60% 40% 50%;
             display: flex;
             align-items: center;
@@ -133,14 +133,14 @@
 
         .about-text h2 {
             font-size: 2.2rem;
-            color: #4a7c59;
+            color: #2471a3;
             margin-bottom: 20px;
         }
 
         .about-text p {
             font-size: 1.05rem;
             line-height: 1.9;
-            color: #555;
+            color: #4a6478;
             margin-bottom: 15px;
         }
 
@@ -152,30 +152,30 @@
         }
 
         .cert-badge {
-            background-color: #e8f0e9;
-            color: #4a7c59;
+            background-color: #d6eaf8;
+            color: #2471a3;
             padding: 6px 16px;
             border-radius: 20px;
             font-size: 0.85rem;
             font-weight: bold;
-            border: 1px solid #c8dfc8;
+            border: 1px solid #aed6f1;
         }
 
         /* ===== SERVICES SECTION ===== */
         #services {
-            background-color: #f5ede3;
+            background-color: #e8f4fd;
             padding: 90px 40px;
             text-align: center;
         }
 
         #services h2 {
             font-size: 2.2rem;
-            color: #4a7c59;
+            color: #2471a3;
             margin-bottom: 12px;
         }
 
         #services .subtitle {
-            color: #888;
+            color: #7a9cb5;
             font-style: italic;
             margin-bottom: 50px;
             font-size: 1.05rem;
@@ -193,13 +193,13 @@
             background: white;
             padding: 40px 25px;
             border-radius: 20px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+            box-shadow: 0 5px 20px rgba(74, 144, 184, 0.1);
             transition: transform 0.3s, box-shadow 0.3s;
         }
 
         .service-card:hover {
             transform: translateY(-6px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+            box-shadow: 0 10px 30px rgba(74, 144, 184, 0.2);
         }
 
         .service-icon {
@@ -209,12 +209,12 @@
 
         .service-card h3 {
             font-size: 1.2rem;
-            color: #4a7c59;
+            color: #2471a3;
             margin-bottom: 12px;
         }
 
         .service-card p {
-            color: #777;
+            color: #6a8fa8;
             font-size: 0.95rem;
             line-height: 1.7;
             margin-bottom: 15px;
@@ -223,24 +223,24 @@
         .price {
             font-size: 1.3rem;
             font-weight: bold;
-            color: #7a9e7e;
+            color: #4a90b8;
         }
 
         /* ===== TESTIMONIALS SECTION ===== */
         #testimonials {
             padding: 90px 40px;
             text-align: center;
-            background-color: #fdfaf6;
+            background-color: #f0f7ff;
         }
 
         #testimonials h2 {
             font-size: 2.2rem;
-            color: #4a7c59;
+            color: #2471a3;
             margin-bottom: 12px;
         }
 
         #testimonials .subtitle {
-            color: #888;
+            color: #7a9cb5;
             font-style: italic;
             margin-bottom: 50px;
         }
@@ -257,9 +257,9 @@
             background: white;
             padding: 35px 28px;
             border-radius: 20px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+            box-shadow: 0 5px 20px rgba(74, 144, 184, 0.1);
             text-align: left;
-            border-top: 4px solid #7a9e7e;
+            border-top: 4px solid #4a90b8;
         }
 
         .stars {
@@ -269,7 +269,7 @@
         }
 
         .testimonial-card p {
-            color: #555;
+            color: #4a6478;
             font-style: italic;
             line-height: 1.8;
             margin-bottom: 20px;
@@ -277,25 +277,25 @@
 
         .client-name {
             font-weight: bold;
-            color: #4a7c59;
+            color: #2471a3;
             font-size: 0.95rem;
         }
 
         /* ===== SCHEDULE SECTION ===== */
         #schedule {
-            background: linear-gradient(135deg, #e8f0e9, #e8e0f0);
+            background: linear-gradient(135deg, #d6eaf8, #dce8f5);
             padding: 90px 40px;
             text-align: center;
         }
 
         #schedule h2 {
             font-size: 2.2rem;
-            color: #4a7c59;
+            color: #2471a3;
             margin-bottom: 12px;
         }
 
         #schedule .subtitle {
-            color: #777;
+            color: #7a9cb5;
             font-style: italic;
             margin-bottom: 50px;
         }
@@ -306,14 +306,14 @@
             background: white;
             border-radius: 20px;
             overflow: hidden;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            box-shadow: 0 5px 20px rgba(74, 144, 184, 0.15);
         }
 
         .schedule-row {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             padding: 18px 30px;
-            border-bottom: 1px solid #f0e8e0;
+            border-bottom: 1px solid #d6eaf8;
             align-items: center;
         }
 
@@ -322,19 +322,19 @@
         }
 
         .schedule-row.header {
-            background-color: #7a9e7e;
+            background-color: #4a90b8;
             color: white;
             font-weight: bold;
             letter-spacing: 1px;
         }
 
         .schedule-row:not(.header):hover {
-            background-color: #f9f5f1;
+            background-color: #eaf4fb;
         }
 
         .schedule-row span {
             font-size: 0.95rem;
-            color: #555;
+            color: #4a6478;
         }
 
         .schedule-row.header span {
@@ -342,7 +342,7 @@
         }
 
         .available {
-            color: #7a9e7e !important;
+            color: #2471a3 !important;
             font-weight: bold;
         }
 
@@ -350,17 +350,17 @@
         #contact {
             padding: 90px 40px;
             text-align: center;
-            background-color: #fdfaf6;
+            background-color: #f0f7ff;
         }
 
         #contact h2 {
             font-size: 2.2rem;
-            color: #4a7c59;
+            color: #2471a3;
             margin-bottom: 12px;
         }
 
         #contact .subtitle {
-            color: #888;
+            color: #7a9cb5;
             font-style: italic;
             margin-bottom: 50px;
         }
@@ -384,12 +384,12 @@
         .contact-form select,
         .contact-form textarea {
             padding: 14px 18px;
-            border: 1px solid #d9d9d9;
+            border: 1px solid #aed6f1;
             border-radius: 10px;
             font-size: 0.95rem;
             font-family: 'Georgia', serif;
-            background: #fdfaf6;
-            color: #3d3d3d;
+            background: #f0f7ff;
+            color: #2d3f50;
             transition: border-color 0.3s;
             outline: none;
         }
@@ -397,7 +397,7 @@
         .contact-form input:focus,
         .contact-form select:focus,
         .contact-form textarea:focus {
-            border-color: #7a9e7e;
+            border-color: #4a90b8;
         }
 
         .contact-form textarea {
@@ -407,7 +407,7 @@
 
         .contact-form button {
             padding: 14px;
-            background-color: #7a9e7e;
+            background-color: #4a90b8;
             color: white;
             border: none;
             border-radius: 30px;
@@ -418,7 +418,7 @@
         }
 
         .contact-form button:hover {
-            background-color: #4a7c59;
+            background-color: #2471a3;
             transform: translateY(-2px);
         }
 
@@ -438,7 +438,7 @@
         .contact-item .icon {
             width: 50px;
             height: 50px;
-            background-color: #e8f0e9;
+            background-color: #d6eaf8;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -448,21 +448,21 @@
         }
 
         .contact-item p {
-            color: #555;
+            color: #4a6478;
             font-size: 0.95rem;
             line-height: 1.6;
         }
 
         .contact-item strong {
-            color: #4a7c59;
+            color: #2471a3;
             display: block;
             margin-bottom: 3px;
         }
 
         /* ===== FOOTER ===== */
         footer {
-            background-color: #4a7c59;
-            color: #d4e8d4;
+            background-color: #2471a3;
+            color: #d6eaf8;
             text-align: center;
             padding: 40px 20px;
         }
@@ -538,7 +538,7 @@
 
     <!-- NAVIGATION -->
     <nav>
-        <div class="logo">Nancy's Zen Yoga</div>
+        <div class="logo">Zen Yoga</div>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
@@ -553,7 +553,7 @@
         <div class="hero-content">
             <span class="hero-emoji">🧘‍♀️</span>
             <h1>Find Your Flow</h1>
-            <p>Personalized yoga instruction in the comfort of your own home or location of choice</p>
+            <p>Personalized yoga instruction in the comfort of your own home</p>
             <a href="#contact" class="btn">Book a Session</a>
         </div>
     </section>
@@ -729,7 +729,7 @@
                 </select>
                 <input type="text" placeholder="Preferred Day & Time" />
                 <textarea placeholder="Any health considerations, goals, or questions?"></textarea>
-                <button type="submit">Send Booking Request 🌿</button>
+                <button type="submit">Send Booking Request 💙</button>
             </form>
 
             <div class="contact-info">
@@ -737,7 +737,7 @@
                     <div class="icon">📍</div>
                     <p>
                         <strong>Service Area</strong>
-                        Serving the greater Austin, TX area<br>
+                        Serving the greater San Diego, CA area<br>
                         within a 15-mile radius
                     </p>
                 </div>
@@ -745,14 +745,14 @@
                     <div class="icon">📞</div>
                     <p>
                         <strong>Phone</strong>
-                        (512) 555-0198
+                        (619) 555-0198
                     </p>
                 </div>
                 <div class="contact-item">
                     <div class="icon">📧</div>
                     <p>
                         <strong>Email</strong>
-                        Nancy@zen yogayoga.com
+                        nancy@zenyoga.com
                     </p>
                 </div>
                 <div class="contact-item">
@@ -776,14 +776,14 @@
 
     <!-- FOOTER -->
     <footer>
-        <div class="footer-logo">zen yoga Yoga</div>
+        <div class="footer-logo">Zen Yoga</div>
         <div class="social-links">
             <a href="#" title="Instagram">📸</a>
             <a href="#" title="Facebook">📘</a>
             <a href="#" title="YouTube">▶️</a>
         </div>
-        <p>© 2024 zen yoga Yoga | Nancy Johnson, RYT-500</p>
-        <p>Bringing wellness to your doorstep in Austin, TX</p>
+        <p>© 2024 Zen Yoga | Nancy Johnson, RYT-500</p>
+        <p>Bringing wellness to your doorstep in San Diego, CA</p>
     </footer>
 
 </body>
