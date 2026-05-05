@@ -782,7 +782,7 @@
             <a href="#" title="Facebook">📘</a>
             <a href="#" title="YouTube">▶️</a>
         </div>
-        <p>© 2024 Zen Yoga | Nancy Johnson, RYT-500</p>
+        <p>© 2024 Zen Yoga | Nancy malabarba, RYT-500</p>
         <p>Bringing wellness to your doorstep in San Diego, CA</p>
     </footer>
 
