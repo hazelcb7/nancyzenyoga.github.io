@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -321,13 +321,11 @@
             margin: 0 auto;
             text-align: left;
         }
-
         .contact-form {
             display: flex;
             flex-direction: column;
             gap: 18px;
         }
-
         .contact-form input,
         .contact-form select,
         .contact-form textarea {
@@ -341,18 +339,15 @@
             transition: border-color 0.3s;
             outline: none;
         }
-
         .contact-form input:focus,
         .contact-form select:focus,
         .contact-form textarea:focus {
             border-color: #4a90b8;
         }
-
         .contact-form textarea {
             height: 130px;
             resize: vertical;
         }
-
         .contact-form button {
             padding: 14px;
             background-color: #4a90b8;
@@ -364,25 +359,21 @@
             letter-spacing: 1px;
             transition: background-color 0.3s, transform 0.2s;
         }
-
         .contact-form button:hover {
             background-color: #2471a3;
             transform: translateY(-2px);
         }
-
         .contact-info {
             display: flex;
             flex-direction: column;
             gap: 25px;
             justify-content: center;
         }
-
         .contact-item {
             display: flex;
             align-items: center;
             gap: 15px;
         }
-
         .contact-item .icon {
             width: 50px;
             height: 50px;
@@ -394,19 +385,16 @@
             font-size: 1.3rem;
             flex-shrink: 0;
         }
-
         .contact-item p {
             color: #4a6478;
             font-size: 0.95rem;
             line-height: 1.6;
         }
-
         .contact-item strong {
             color: #2471a3;
             display: block;
             margin-bottom: 3px;
         }
-
         /* ===== FOOTER ===== */
         footer {
             background-color: #2471a3;
@@ -414,20 +402,17 @@
             text-align: center;
             padding: 40px 20px;
         }
-
         footer .footer-logo {
             font-size: 1.8rem;
             font-style: italic;
             letter-spacing: 2px;
             margin-bottom: 15px;
         }
-
         footer p {
             font-size: 0.9rem;
             opacity: 0.8;
             margin-bottom: 8px;
         }
-
         footer .social-links {
             display: flex;
             justify-content: center;
@@ -435,55 +420,45 @@
             margin: 20px 0;
             font-size: 1.5rem;
         }
-
         footer .social-links a {
             text-decoration: none;
             transition: transform 0.2s;
             display: inline-block;
         }
-
         footer .social-links a:hover {
             transform: scale(1.2);
         }
-
         /* ===== RESPONSIVE ===== */
         @media (max-width: 768px) {
             .hero-content h1 {
                 font-size: 2.2rem;
             }
-
             #about {
                 flex-direction: column;
                 padding: 70px 30px;
                 text-align: center;
             }
-
             .about-image {
                 width: 220px;
                 height: 270px;
                 font-size: 5rem;
             }
-
             .contact-container {
                 grid-template-columns: 1fr;
             }
-
             nav {
                 padding: 15px 20px;
             }
-
             .nav-links {
                 gap: 15px;
             }
-
             .nav-links a {
                 font-size: 0.8rem;
             }
         }
     </style>
 </head>
-<body>
-
+<body> 
     <!-- NAVIGATION -->
     <nav>
         <div class="logo">Nancy's Zen Yoga</div>
@@ -495,7 +470,6 @@
             <li><a href="#contact">Book Now</a></li>
         </ul>
     </nav>
-
     <!-- HERO SECTION -->
     <section class="hero">
         <div class="hero-content">
@@ -505,7 +479,6 @@
             <a href="#contact" class="btn">Book a Session</a>
         </div>
     </section>
-
     <!-- ABOUT SECTION -->
     <section id="about">
         <div class="about-image">🧘</div>
@@ -529,85 +502,71 @@
             </div>
         </div>
     </section>
-
     <!-- SERVICES SECTION -->
     <section id="services">
         <h2>Services & Pricing</h2>
         <p class="subtitle">Bringing balance and wellness to your doorstep</p>
         <div class="services-grid">
-
             <div class="service-card">
                 <div class="service-icon">🌱</div>
                 <h3>Beginner Session</h3>
                 <p>Perfect for those new to yoga. Learn foundational poses, breathing, and mindfulness in a gentle, supportive environment.</p>
                 <div class="price">$65 / hr</div>
             </div>
-
             <div class="service-card">
                 <div class="service-icon">🔥</div>
                 <h3>Power Flow</h3>
                 <p>A dynamic, energizing practice linking breath with movement. Build strength, flexibility, and endurance.</p>
                 <div class="price">$75 / hr</div>
             </div>
-
             <div class="service-card">
                 <div class="service-icon">🌙</div>
                 <h3>Restorative Yoga</h3>
                 <p>Deep relaxation using props and supported poses. Ideal for stress relief, recovery, and nervous system regulation.</p>
                 <div class="price">$65 / hr</div>
             </div>
-
             <div class="service-card">
                 <div class="service-icon">🤰</div>
                 <h3>Prenatal Yoga</h3>
                 <p>Safe, nurturing yoga designed for all stages of pregnancy. Support comfort, connection, and preparation for birth.</p>
                 <div class="price">$75 / hr</div>
             </div>
-
             <div class="service-card">
                 <div class="service-icon">👨‍👩‍👧</div>
                 <h3>Couples / Pairs</h3>
                 <p>Practice together with a partner, friend, or family member. Shared sessions split the cost and double the fun!</p>
                 <div class="price">$95 / hr</div>
             </div>
-
             <div class="service-card">
                 <div class="service-icon">📦</div>
                 <h3>Monthly Package</h3>
                 <p>Commit to your wellness journey with 8 sessions per month. Best value for consistent, transformative practice.</p>
                 <div class="price">$450 / mo</div>
             </div>
-
         </div>
     </section>
-
     <!-- TESTIMONIALS SECTION -->
     <section id="testimonials">
         <h2>What Clients Say</h2>
         <p class="subtitle">Real experiences from real people</p>
         <div class="testimonials-grid">
-
             <div class="testimonial-card">
                 <div class="stars">★★★★★</div>
                 <p>"Nancy completely transformed my mornings. Having her come to my home means no commute, no excuses — just pure yoga. I've never felt better!"</p>
                 <span class="client-name">— Jessica M.</span>
             </div>
-
             <div class="testimonial-card">
                 <div class="stars">★★★★★</div>
                 <p>"As a total beginner, I was nervous, but Nancy made me feel so comfortable. She adapts every session to exactly what I need. Highly recommend!"</p>
                 <span class="client-name">— Tom R.</span>
             </div>
-
             <div class="testimonial-card">
                 <div class="stars">★★★★★</div>
                 <p>"The prenatal sessions were a lifesaver during my third trimester. Nancy is knowledgeable, caring, and so professional. Booking continued after baby!"</p>
                 <span class="client-name">— Amanda K.</span>
             </div>
-
         </div>
     </section>
-
     <!-- SCHEDULE SECTION -->
     <section id="schedule">
         <h2>Availability</h2>
@@ -655,13 +614,11 @@
             </div>
         </div>
     </section>
-
     <!-- CONTACT SECTION -->
     <section id="contact">
         <h2>Book a Session</h2>
         <p class="subtitle">Ready to begin your journey? Reach out today!</p>
         <div class="contact-container">
-
             <form class="contact-form">
                 <input type="text" placeholder="Your Name" required />
                 <input type="email" placeholder="Your Email" required />
@@ -679,7 +636,6 @@
                 <textarea placeholder="Any health considerations, goals, or questions?"></textarea>
                 <button type="submit">Send Booking Request 💙</button>
             </form>
-
             <div class="contact-info">
                 <div class="contact-item">
                     <div class="icon">📍</div>
@@ -718,10 +674,8 @@
                     </p>
                 </div>
             </div>
-
         </div>
     </section>
-
     <!-- FOOTER -->
     <footer>
         <div class="footer-logo">Zen Yoga</div>
