@@ -684,8 +684,8 @@
             <a href="#" title="Facebook">📘</a>
             <a href="#" title="YouTube">▶️</a>
         </div>
-        <p>© 2024 Nanc's Zen Yoga | Nancy Malabarba, RYT-500</p>
-        <p>Bringing wellness to your doorstep in San Diego, CA</p>
+        <p>© 2024 Nancy's Zen Yoga | Nancy Malabarba, RYT-500</p>
+        <p>Bringing wellness to your doorstep across San Diego</p>
     </footer>
 
 </body>
