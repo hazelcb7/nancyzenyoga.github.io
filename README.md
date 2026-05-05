@@ -11,13 +11,11 @@
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             font-family: 'Georgia', serif;
             color: #2d3f50;
             background-color: #f0f7ff;
         }
-
         /* ===== NAVIGATION ===== */
         nav {
             position: fixed;
@@ -31,20 +29,17 @@
             z-index: 1000;
             box-shadow: 0 2px 10px rgba(0,0,0,0.08);
         }
-
         .logo {
             font-size: 1.6rem;
             color: #4a90b8;
             letter-spacing: 2px;
             font-style: bold;
         }
-
         .nav-links {
             list-style: none;
             display: flex;
             gap: 30px;
         }
-
         .nav-links a {
             text-decoration: none;
             color: #2d3f50;
@@ -53,11 +48,9 @@
             text-transform: uppercase;
             transition: color 0.3s;
         }
-
         .nav-links a:hover {
             color: #4a90b8;
         }
-
         /* ===== HERO SECTION ===== */
         .hero {
             height: 100vh;
@@ -68,14 +61,12 @@
             text-align: center;
             padding: 20px;
         }
-
         .hero-content h1 {
             font-size: 3.5rem;
             color: #2471a3;
             margin-bottom: 15px;
             letter-spacing: 3px;
         }
-
         .hero-content p {
             font-size: 1.3rem;
             color: #5d7f99;
@@ -83,7 +74,6 @@
             font-style: italic;
             max-width: 550px;
         }
-
         .btn {
             display: inline-block;
             padding: 14px 36px;
@@ -95,18 +85,15 @@
             letter-spacing: 1px;
             transition: background-color 0.3s, transform 0.2s;
         }
-
         .btn:hover {
             background-color: #2471a3;
             transform: translateY(-2px);
         }
-
         .hero-emoji {
             font-size: 5rem;
             margin-bottom: 20px;
             display: block;
         }
-
         /* ===== ABOUT SECTION ===== */
         #about {
             padding: 90px 60px;
@@ -117,7 +104,6 @@
             max-width: 1100px;
             margin: 0 auto;
         }
-
         .about-image {
             width: 320px;
             height: 400px;
@@ -129,27 +115,23 @@
             font-size: 8rem;
             flex-shrink: 0;
         }
-
         .about-text h2 {
             font-size: 2.2rem;
             color: #2471a3;
             margin-bottom: 20px;
         }
-
         .about-text p {
             font-size: 1.05rem;
             line-height: 1.9;
             color: #4a6478;
             margin-bottom: 15px;
         }
-
         .certifications {
             display: flex;
             gap: 10px;
             flex-wrap: wrap;
             margin-top: 20px;
         }
-
         .cert-badge {
             background-color: #d6eaf8;
             color: #2471a3;
@@ -159,27 +141,23 @@
             font-weight: bold;
             border: 1px solid #aed6f1;
         }
-
         /* ===== SERVICES SECTION ===== */
         #services {
             background-color: #e8f4fd;
             padding: 90px 40px;
             text-align: center;
         }
-
         #services h2 {
             font-size: 2.2rem;
             color: #2471a3;
             margin-bottom: 12px;
         }
-
         #services .subtitle {
             color: #7a9cb5;
             font-style: italic;
             margin-bottom: 50px;
             font-size: 1.05rem;
         }
-
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -187,7 +165,6 @@
             max-width: 1100px;
             margin: 0 auto;
         }
-
         .service-card {
             background: white;
             padding: 40px 25px;
@@ -195,55 +172,46 @@
             box-shadow: 0 5px 20px rgba(74, 144, 184, 0.1);
             transition: transform 0.3s, box-shadow 0.3s;
         }
-
         .service-card:hover {
             transform: translateY(-6px);
             box-shadow: 0 10px 30px rgba(74, 144, 184, 0.2);
         }
-
         .service-icon {
             font-size: 3rem;
             margin-bottom: 15px;
         }
-
         .service-card h3 {
             font-size: 1.2rem;
             color: #2471a3;
             margin-bottom: 12px;
         }
-
         .service-card p {
             color: #6a8fa8;
             font-size: 0.95rem;
             line-height: 1.7;
             margin-bottom: 15px;
         }
-
         .price {
             font-size: 1.3rem;
             font-weight: bold;
             color: #4a90b8;
         }
-
         /* ===== TESTIMONIALS SECTION ===== */
         #testimonials {
             padding: 90px 40px;
             text-align: center;
             background-color: #f0f7ff;
         }
-
         #testimonials h2 {
             font-size: 2.2rem;
             color: #2471a3;
             margin-bottom: 12px;
         }
-
         #testimonials .subtitle {
             color: #7a9cb5;
             font-style: italic;
             margin-bottom: 50px;
         }
-
         .testimonials-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -251,7 +219,6 @@
             max-width: 1000px;
             margin: 0 auto;
         }
-
         .testimonial-card {
             background: white;
             padding: 35px 28px;
@@ -260,45 +227,38 @@
             text-align: left;
             border-top: 4px solid #4a90b8;
         }
-
         .stars {
             color: #f0c060;
             font-size: 1.1rem;
             margin-bottom: 15px;
         }
-
         .testimonial-card p {
             color: #4a6478;
             font-style: italic;
             line-height: 1.8;
             margin-bottom: 20px;
         }
-
         .client-name {
             font-weight: bold;
             color: #2471a3;
             font-size: 0.95rem;
         }
-
         /* ===== SCHEDULE SECTION ===== */
         #schedule {
             background: linear-gradient(135deg, #d6eaf8, #dce8f5);
             padding: 90px 40px;
             text-align: center;
         }
-
         #schedule h2 {
             font-size: 2.2rem;
             color: #2471a3;
             margin-bottom: 12px;
         }
-
         #schedule .subtitle {
             color: #7a9cb5;
             font-style: italic;
             margin-bottom: 50px;
         }
-
         .schedule-table {
             max-width: 700px;
             margin: 0 auto;
@@ -307,7 +267,6 @@
             overflow: hidden;
             box-shadow: 0 5px 20px rgba(74, 144, 184, 0.15);
         }
-
         .schedule-row {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -315,55 +274,45 @@
             border-bottom: 1px solid #d6eaf8;
             align-items: center;
         }
-
         .schedule-row:last-child {
             border-bottom: none;
         }
-
         .schedule-row.header {
             background-color: #4a90b8;
             color: white;
             font-weight: bold;
             letter-spacing: 1px;
         }
-
         .schedule-row:not(.header):hover {
             background-color: #eaf4fb;
         }
-
         .schedule-row span {
             font-size: 0.95rem;
             color: #4a6478;
         }
-
         .schedule-row.header span {
             color: white;
         }
-
         .available {
             color: #2471a3 !important;
             font-weight: bold;
         }
-
         /* ===== CONTACT SECTION ===== */
         #contact {
             padding: 90px 40px;
             text-align: center;
             background-color: #f0f7ff;
         }
-
         #contact h2 {
             font-size: 2.2rem;
             color: #2471a3;
             margin-bottom: 12px;
         }
-
         #contact .subtitle {
             color: #7a9cb5;
             font-style: italic;
             margin-bottom: 50px;
         }
-
         .contact-container {
             display: grid;
             grid-template-columns: 1fr 1fr;
