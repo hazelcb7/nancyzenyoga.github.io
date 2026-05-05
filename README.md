@@ -1,5 +1,3 @@
-# nancyzenyoga.github.io
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -37,7 +35,7 @@
             font-size: 1.6rem;
             color: #4a90b8;
             letter-spacing: 2px;
-            font-style: italic;
+            font-style: bold;
         }
 
         .nav-links {
