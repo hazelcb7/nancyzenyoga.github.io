@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zen Yoga | In-Home Yoga Instruction</title>
+    <title>Nancy's Zen Yoga | In-Home & Studio Yoga Instruction</title>
     <style>
         /* ===== RESET & BASE ===== */
         * {
@@ -538,7 +538,7 @@
 
     <!-- NAVIGATION -->
     <nav>
-        <div class="logo">Zen Yoga</div>
+        <div class="logo">Nancy's Zen Yoga</div>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
@@ -553,7 +553,7 @@
         <div class="hero-content">
             <span class="hero-emoji">🧘‍♀️</span>
             <h1>Find Your Flow</h1>
-            <p>Personalized yoga instruction in the comfort of your own home</p>
+            <p>Personalized yoga instruction in the comfort of your own home or location of your choosing</p>
             <a href="#contact" class="btn">Book a Session</a>
         </div>
     </section>
@@ -782,7 +782,7 @@
             <a href="#" title="Facebook">📘</a>
             <a href="#" title="YouTube">▶️</a>
         </div>
-        <p>© 2024 Zen Yoga | Nancy malabarba, RYT-500</p>
+        <p>© 2024 Nanc's Zen Yoga | Nancy Malabarba, RYT-500</p>
         <p>Bringing wellness to your doorstep in San Diego, CA</p>
     </footer>
 
