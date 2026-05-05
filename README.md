@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nancy's Zen Yoga</title>
+    <title>In-Home & Studio Practice</title>
     <style>
         /* ===== RESET & BASE ===== */
         * {
